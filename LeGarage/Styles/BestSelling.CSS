@@ -1,0 +1,30 @@
+.BestSelling{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #666666;
+}
+
+.BestSellGrid{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20%;
+    grid-column-gap: 50px;
+    grid-row-gap: 110px;
+    position: relative;
+    top: 70px;
+}
+
+.BestSellingH1{
+    text-align: center;
+    color: white;
+    font-family: "Lora", serif;
+    font-size: 45px;
+    font-weight: 700;
+    text-shadow: black 2px 3px;
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+    top: 30px;
+}
+

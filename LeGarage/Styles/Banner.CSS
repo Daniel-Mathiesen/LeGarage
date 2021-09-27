@@ -1,0 +1,31 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+/* Fonts */
+
+.banner{
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    animation: slide 16s ease-in-out infinite;
+    background-image: url("../Images/slide1.jpg");
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes slide{
+    25%{background-image: url("../Images/slide1.jpg");}
+
+    40%{background-image: url("../Images/slide2.jpg");}
+}
+
+.banner h1{
+    text-align: center;
+    color: white;
+    font-family: "Lora", serif;
+    font-size: 60px;
+    font-weight: 700;
+    text-shadow: black 2px 3px;
+}
